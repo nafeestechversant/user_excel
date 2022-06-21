@@ -1,6 +1,7 @@
 <!-- Set the value of MyDatabase to be the name you published the database under -->
 <cfcomponent output="false">
-    <cfset this.name = '' />	  	 
+    <cfset this.name = 'User Details' />
+	<cfset this.datasource = 'cf_userexcel' /> 	  	 
     <!---OnApplicationStart() method--->
 	<cffunction name="onApplicationStart" returntype="boolean" >
 						

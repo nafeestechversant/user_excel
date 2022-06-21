@@ -101,8 +101,7 @@ body {
 .event-schedule-area-two ul.custom-tab {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
-    border-bottom: 1px solid #dee2e6;
+    /* justify-content: center; */
     margin-bottom: 30px;
 }
 
@@ -112,12 +111,11 @@ body {
 }
 
 .event-schedule-area-two ul.custom-tab li a {
-    color: #252525;
-    font-size: 25px;
+    color: #fff;
+    font-size: 18px;
     line-height: 25px;
     font-weight: 600;
     text-transform: capitalize;
-    padding: 35px 0;
     position: relative;
 }
 
@@ -270,4 +268,32 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 8px;
+}
+
+.mright-3 {
+    margin-right: 35% !important;
+}
+
+.clr1 {
+    background-color: #76C3B1 !important;
+    border-color: snow;
+}
+
+.clr2 {
+    background-color: #61A9FD !important;
+    border-color: snow;
+}
+
+.clr3 {
+    background-color: #B6BBBF !important;
+    border-color: snow;
+}
+
+.clr4 {
+    background-color: #3EBA68 !important;
+    border-color: snow;
+}
+
+#fld_userExcel {
+    display: none;
 }
